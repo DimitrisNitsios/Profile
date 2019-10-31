@@ -1,0 +1,73 @@
+/*  Style body, header and footer */
+body {
+    background-color: whitesmoke;
+}
+header {
+    text-align: center;
+}
+
+footer, header {
+    background-color: lightgreen;
+}
+
+img {
+    border-radius: 48%;
+}
+/*---------------------------*/
+
+
+/*  Style the Table and it's contents   */
+.tableheading, .subheading {
+    text-align: center;
+}
+
+table, th, td {
+    border: 2px solid darkgreen;
+    border-collapse: collapse;
+    padding: 30px;
+}
+
+th {
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+}
+
+h3 {
+    color: darkgreen;
+}
+
+/*------------------------------------ */
+
+
+/* Sets display to none and the functions changes it to block */
+#ulModules, #ulPersonalInfo {
+    display: none;
+}
+
+
+/* style the "click to expand"  */
+.explist {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    font-size: 12px ;
+    display: inline-block;
+}
+
+/* Style the Links  */
+.stylelink {
+    color: blue;
+    font-family: "Arial";
+}
+
+
+/* Style the Credits*/
+#credits {
+    text-align: right;
+    color : blue;
+}
+
+/*Style the HeadLine*/
+h1 {
+    color: darkblue;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DimitrisNitsios</title>
+    <link rel="stylesheet" type="text/css" href="StyleProfile.css">
+</head>
+
+<body>
+<header>            <!--<header>  -->
+
+    <h1>Dimitris Nitsios</h1>  <!--HeadLine-->
+
+    <div>            <!--<Pic>-->
+        <img src="Pics/Pic2.jpg" alt="Profile Pic" width="192" height="250">
+    </div>
+    <br>
+    <div>            <!-- <Links>-->
+        <!--<Link to Home Page>-->
+        <a href="Index.html" class="stylelink"> <u><b>Home Page</b></u> </a>
+        <i style="color: crimson" ><b> / </b></i>    <!-- adds / between links -->
+        <!--<Link to my Email> -->
+        <a href="mailto:dnitsios@uclan.ac.uk" class="stylelink" target="_blank">  <u><b>Send me an Email</b></u> </a>
+        <i style="color: crimson" ><b> / </b></i>    <!-- adds / between links -->
+        <!-- Link of Uclan -->
+        <a href="https://www.uclancyprus.ac.cy" class="stylelink" target="_blank"> <u><b>Uclan Site</b></u> </a>
+    </div>
+</header>               <!--<header ends>-->
+
+<main>                  <!--<Main Body>-->
+    <br>
+    <br>
+    <br>
+
+    <div>
+        <table style="margin: auto">         <!----<The Table containing the Modules and some Personal Info>---->
+            <tr class="tableheading">
+                <th><h2><b><u> Modules       </u></b></h2></th>
+                <th><h2><b><u> Personal Info </u></b></h2></th>
+            </tr>
+            <tr id="secondrow">
+                <td> <h3><p class="subheading"> As an advanced entry student, my modules are a mix of first year and second year classes</p></h3>
+                            <!--<Expands unordered list of Modules>-->
+                    <div style="text-align: center" >
+                        <i class="explist" onclick="showlist1()"><b>Click to expand </b></i>
+                    </div>
+                            <!--<Unordered list of Modules>-->
+                    <ul id="ulModules">
+                        <li> CO1111 : Computing skills.                    </li>
+                        <li> CO1301 : Games concepts.                      </li>
+                        <li> CO1407 : Introduction to programming.         </li>
+                        <li> CO1406 : Algorithms and Data Structures.      </li>
+                        <li> CO1507 : Introduction to networking.          </li>
+                        <li> CO1508 : Computer systems and security.       </li>
+                        <li> CO1605 : Systems analysis and database design.</li>
+                        <li> CO1808 : Study and research skills.           </li>
+                    </ul>
+                </td>
+                <td> <h3><p class="subheading">Some personal info about me</p></h3>
+                         <!--<Expands unordered list of Personal Info>-->
+                    <div style="text-align: center" >
+                    <i class="explist" onclick="showlist2()"><b>Click to expand </b></i>
+                    </div>
+                         <!--<Unordered list of Personal Info>-->
+                    <ul id="ulPersonalInfo">
+                        <li>I am 30 years old.                                                             </li>
+                        <li>This is my first year in Uclan                                                 </li>
+                        <li>I entered the National and Kapodistrian University of Athens to study Maths.   </li>
+                        <li>The only knowledge i had about coding was from high school 13 years ago.       </li>
+                        <li>I did <a href="https://en.wikipedia.org/wiki/Taekwondo" class="stylelink">Tae Kwon Do</a> from the age of 9 till high school.</li>
+                        <li>My hobbies are:
+                            <ol type="i">        <!--< Ordered list of hobies>-->
+                                <li>Gaming on pc and listening to audio-books.      </li>
+                                <li>Reading (translated) Chinese fantasy literature.</li>
+                            </ol>
+                    </ul>
+
+                </td>
+            </tr>
+        </table>                     <!-------<Table Ends>------->
+    </div>
+
+
+</main>                 <!--<Main Body ends>-->
+
+<br>
+<footer>                <!---<Footer starts> -->
+<div id="credits">
+    <i><b> Created by Dimitris Nitsios </b></i>
+</div>
+
+</footer>            <!---<Footer ends> -->
+
+<!--<Link the JS file to HTML>-->
+<script src="JSProfile.js"></script>
+
+</body>
+</html>
+
+    
