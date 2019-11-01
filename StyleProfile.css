@@ -59,10 +59,16 @@ h3 {
 }
 
 /* Style the Links  */
+#linkTab {
+    background-color: lightseagreen;
+    padding: 5px;
+}
 .stylelink {
     color: blue;
     font-family: "Comic Sans MS", "Comic Sans MS", sans-serif ;
     text-decoration: none;
+    padding: 10px;
+
 }
 
 
