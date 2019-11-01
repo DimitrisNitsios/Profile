@@ -61,16 +61,21 @@ h3 {
 /* Style the Links  */
 #linkTab {
     background-color: lightseagreen;
-    padding: 5px;
+    padding: 10px;
 }
+
 .stylelink {
     color: blue;
     font-family: "Comic Sans MS", "Comic Sans MS", sans-serif ;
     text-decoration: none;
     padding: 10px;
-
+    margin: 5px;
+    transition: background-color, 5s ;
 }
 
+.stylelink:hover {
+    background: red;
+}
 
 /* Style the Credits*/
 #credits {
@@ -83,3 +88,7 @@ h1 {
     color: darkblue;
 }
 
+/*Style the lists */
+ol{
+    list-style: lower-roman;
+}
