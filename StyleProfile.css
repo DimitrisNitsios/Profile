@@ -64,14 +64,21 @@ h3 {
     padding: 10px;
 }
 
+#masterLinks{
+    background-color: seagreen;
+    transition: background-color, 5s ;
+}
+
+
 .stylelink {
     color: blue;
     font-family: "Comic Sans MS", "Comic Sans MS", sans-serif ;
     text-decoration: none;
     padding: 10px;
     margin: 5px;
-    transition: background-color, 5s ;
+    transition: 5s;
 }
+
 
 .stylelink:hover {
     background: red;
